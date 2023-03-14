@@ -23,8 +23,6 @@ from google.cloud import bigquery
 print('Pandas version: {}'.format(pd.__version__))
 def load_weather_data():
 
-    %%time
-
     bq_assistant = BigQueryHelper("bigquery-public-data", "github_repos.noaa_gsod")
 
 

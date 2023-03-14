@@ -163,8 +163,6 @@ def show(image):
 
     fig, Xaxis = plt.subplots(1, 1, figsize=(9, 9))
 
-    %matplotlib inline
-
     plt.imshow(image)
 
     Xaxis.axis('off') 
